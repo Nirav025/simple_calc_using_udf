@@ -1,0 +1,51 @@
+<!------------------------ Code by Nirav -------------------------->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calc</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+
+    <div class="bigcontainer">
+        <div class="container">
+            <input type="text" placeholder="Enter Value 1" id="value1" class="valueinp">
+            <input type="text" placeholder="Enter Value 2" id="value2" class="valueinp">
+            
+
+             <div class="radio">
+
+                <div class="radioinp">
+                    <input type="radio" name="Operation" onchange="calc(1)">Addition
+                </div>
+
+                <div class="radioinp">
+                    <input type="radio" name="Operation" onchange="calc(2)">Substraction
+                </div>
+
+                <div class="radioinp">
+                    <input type="radio" name="Operation" onchange="calc(3)">Multiplication
+                </div>
+
+                <div class="radioinp">
+                    <input type="radio" name="Operation" onchange="calc(4)">Devision
+                </div>
+
+            </div>
+
+
+            <div id="answer">ANSWER</div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
