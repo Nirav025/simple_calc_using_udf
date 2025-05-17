@@ -18,15 +18,16 @@
 
 .container {
     width: 360px;
-    height: 400px;
+    height: 310px;
     border: 2px solid grey;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 80px;
     border-radius: 10px;
     background-color: #2B313B;
+    padding: 7px;
 }
 
 .container input {

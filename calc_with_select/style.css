@@ -24,7 +24,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 80px;
     border-radius: 10px;
     background-color: #2B313B;
 }
@@ -75,7 +75,7 @@ select{
     background-color: #F7F709;
     border: 1px solid;
     border-radius: 15px;
-    width: 100px;
+    width: 40%;
     height: 40px;
     font-size: 15px;
 }
